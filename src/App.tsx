@@ -1,14 +1,18 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./styles/themes/default";
+import Rotas from "./routes";
 import { GlobalStyle } from "./styles/global";
+import { defaultTheme } from "./styles/themes/default";
 
-export function App() {
 
+
+export const App: React.FC = () => {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <GlobalStyle />
-      <h1>Hello World</h1>
+      <Router>
+        <GlobalStyle />
+        <Rotas />
+      </Router>
     </ThemeProvider>
-  )
+  );
 }
-
