@@ -14,9 +14,12 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.1",
+<<<<<<< HEAD
     "@types/axios": "^0.14.0",
     "axios": "^1.6.8",
     "crypto-js": "^4.2.0",
+=======
+>>>>>>> 42fe11b34544c630602e72658e20c63c6771d0a4
     "fortawesome": "^0.0.1-security",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

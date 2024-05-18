@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { Container } from "./styles";
 
@@ -49,3 +50,18 @@ export const CardPublications: React.FC<IssueCardProps> = ({ id, title, summary,
     </Container>
   );
 };
+=======
+import { Container } from "./styles";
+
+export function CardPubications() {
+  return (
+    <Container>
+      <div>
+        <h1>JavaScript data types and data structures</h1>
+        <p>Há 1 dia</p>
+      </div>
+      <p>Programming languages all have built-in data structures, but these often differ from one language to another. This article attempts to list the built-in data structures available in ...</p>
+    </Container>
+  )
+}
+>>>>>>> 42fe11b34544c630602e72658e20c63c6771d0a4

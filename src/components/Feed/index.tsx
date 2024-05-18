@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import { Issue, getRepositoryIssues, getUserRepositories } from '../../lib/axios';
 import { CardPublications } from '../CardPublications';
@@ -64,3 +65,20 @@ export const Feed: React.FC<FeedProps> = ({ username }) => {
     </Container>
   );
 };
+=======
+import { SearchForm } from "../../pages/SearchForm";
+import { Container } from "./styles";
+
+export function Feed() {
+  return (
+    <Container>
+      <div>
+        <h1>Publicações</h1>
+        <p>6 publicações</p>
+      </div>
+      <SearchForm />
+    </Container>
+
+  )
+}
+>>>>>>> 42fe11b34544c630602e72658e20c63c6771d0a4

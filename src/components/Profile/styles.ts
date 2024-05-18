@@ -7,6 +7,10 @@ export const Container = styled.div`
   display: flex;
   margin-top: -6rem;
   border-radius: 10px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 42fe11b34544c630602e72658e20c63c6771d0a4
   margin-bottom: 80px;
 
   background-color: ${(props) => props.theme["base-Profile"]};
@@ -20,7 +24,10 @@ export const ProfileImg = styled.img`
 `
 export const ContentCard = styled.div`
   display: flex;
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> 42fe11b34544c630602e72658e20c63c6771d0a4
   flex-direction: column;
   justify-content: center;
   margin: 32px 32px 32px 0;

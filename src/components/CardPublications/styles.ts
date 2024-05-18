@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -40,5 +41,12 @@ export const Container = styled(Link)`
   }
 
 
+=======
+import styled from "styled-components";
+
+export const Container = styled.div`
+  max-width: 416px;
+  width: 100%;
+>>>>>>> 42fe11b34544c630602e72658e20c63c6771d0a4
 
 `
